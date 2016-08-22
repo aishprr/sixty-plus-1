@@ -7,5 +7,5 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-#hospital = Resource.create! :name => "Hospitals", :desc => "desc"
-AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
+#Resource.create( { name: "Hospitals", desc: "desc" } );
+AdminUser.create( { email: 'admin@example.com', password: 'password', password_confirmation: 'password' } );
