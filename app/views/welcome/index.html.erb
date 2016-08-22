@@ -1,381 +1,463 @@
-<!--A Design by W3layouts 
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
-<html>
-<head>
-<title>Academic A Education Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<%= javascript_include_tag("jquery.min.js") %>
-<!--<script src="js/jquery.min.js"></script>-->
-<!-- Custom Theme files -->
-<!--theme-style-->
-<!--//theme-style-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Academic Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!---->
-<%= javascript_include_tag("bootstrap.min.js") %>
-<link href='//fonts.googleapis.com/css?family=Catamaran:400,100,300,500,700,600,800,900' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-</head>
-<body>
- <div class="header">
-	<div class="container">
-		<div class="head-top">
-			<div class="logo">
-				<a href="index.html"><%= image_tag("bo.png", alt: "", title: "Academic")%></a>
-			</div>
-			<div class="login">
-				<ul class="nav-login">
-					<li><a href="#" data-toggle="modal" data-target="#myModal1">Login</a></li>
-					<li><a href="#" data-toggle="modal" data-target="#myModal2">Signup</a></li>
-				</ul>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-		<!-- login -->
-			<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-							<div class="login-grids">
-							
-									<div class="login-right">
-										<form action="#" method="post">
-											<h3>Signin with your account </h3>
-											<input type="text" value="Enter your mobile number or Email" name=" Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your mobile number or Email';}" required="">	
-											<input type="password" value="Password" name="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">	
-											<h4><a href="#">Forgot password</a> / <a href="#">Create new password</a></h4>
-											<div class="single-bottom">
-												<input type="checkbox"  id="brand" value="">
-												<label for="brand"><span></span>Remember Me.</label>
-											</div>
-											<input type="submit" value="SIGNIN" >
-										</form>
-									</div>
-									
-								<p>By logging in you agree to our <span>Terms and Conditions</span> and <span>Privacy Policy</span></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- //login -->
-			<!-- signup -->
-			<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-							<div class="login-grids">
-							
-									<div class="login-right">
-										<form action="#" method="post">
-											<h3>Create your account </h3>
-											<input type="text" value="Name" name="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-											<input type="text" value="Mobile number" name="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
-											<input type="text" value="Email id" name="Email id" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email id';}" required="">	
-											<input type="password" value="Password" name="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">	
-											
-											<input type="submit" value="CREATE ACCOUNT" >
-										</form>
-									</div>
-								
-								<p>By logging in you agree to our <span>Terms and Conditions</span> and <span>Privacy Policy</span></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- //signup -->
-		<div class="banner">
-			<div class="container">
-				<div class="banner-text">
-					<h2>Academic</h2>
-					<p>Sed ut perspiciatis unde </p>
-				</div>
-				<p class="banner-text1">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system</p>
-			</div>
-		</div>
-		<div class="nav-top">
-			<div class="container">
-				<div class="nav1">
-					<div class="navbar1">
-					<!-- Brand and toggle get grouped for better mobile display -->
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" >
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-		 
-						</div>
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav cl-effect-8">
-								<li ><a class="active" href="index.html">Home </a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="gallery.html">Portfolio</a></li>
-								<li><a href="typo.html">Short Codes</a></li>
-								<li><a href="contact.html">Contact</a></li>	
-							</ul>
-						</div><!-- /.navbar-collapse -->
-					</div>
-					<!-- start search-->
-					<ul class="social-ic">
-						<li><a href="#"><i></i></a></li>
-						<li><a href="#"><i class="ic"></i></a></li>
-						<li><a href="#"><i class="ic1"></i></a></li>
-						<li><a href="#"><i class="ic2"></i></a></li>
-					</ul>
-					<div class="clearfix"></div>
-				</div> 
-			</div> 
-		</div> 
-</div> 
-
-	<div class="content">
-	<div class="container">
-	
-					<div class="content-mid">
-						<div class="col-md-4 content-top1">
-						<div class=" content-top2">
-							<h4>Design Thinking</h4>
-							<h6> There are many variations</h6>
-							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-						</div>
-						</div>
-						<div class="col-md-4 content-top1">
-						<div class=" content-top2">
-							<h4>Book Library </h4>
-							<h6> There are many variations</h6>
-							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-						</div>
-						</div>
-						<div class="col-md-4 content-mid-1">
-							<div class="port effect-1">
-								<div class="image-box">
-									<%= image_tag("a1.jpg", alt: "", class: "img-responsive")%>
-								</div>
-								<div class="text-desc text-ed">
-									<h6>Education</h6>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .</p>	
-								</div>
-							</div>
-						</div>
-					<div class="clearfix"></div>
-					</div>
-			</div>
-		</div>
-	
-	<!---->
-	<div class="services">
-		<div class="container">
-		<div class="service-head">
-			<h3>Services</h3>
-				<p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-			</div>
-			<div class="servies-top">
-			<div class="col-md-7 us-ser">
-				<div class=" why-choose">
-					<div class=" hi-icon-effect-2 hi-icon-effect-2a">
-						<a href="#set-6" class="hi-icon  glyphicon glyphicon-book"></a>
-					</div>
-					<div class="ser-top "> 
-						<h5>Our Values</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class=" why-choose">
-						<div class=" hi-icon-effect-2 hi-icon-effect-2a">
-						<a href="#set-6" class="hi-icon  glyphicon glyphicon-leaf"></a>
-					</div>
-					<div class="ser-top"> 
-						<h5>Our Strategy</h5>					
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class=" why-choose">
-						<div class=" hi-icon-effect-2 hi-icon-effect-2a">
-						<a href="#set-6" class="hi-icon  glyphicon glyphicon-pencil"></a>
-					</div>
-					<div class="ser-top"> 
-						<h5>Our Mission</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-		
-			</div>
-			<div class="col-md-5 service-mid">
-				<%= image_tag("co.png", alt: "", class: "img-responsive")%>
-			</div>
-				<div class="clearfix"> </div>
-			</div>
-			</div>
-		</div>
-
-<div class="test">
-		<div class="container">
-		<h3>Testimonials</h3>
-			<div  class=" test-grid-1" >
-				<div class="col-md-6 test-wrapper">
-					<%= image_tag("te.jpg", alt: "", class: "img-responsive")%>
-					<div class="test-grid">
-					<div class="test-gr">
-						<h4>Andery</h4>
-						<span>Ceo</span>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="col-md-6 test-wrapper">
-					<%= image_tag("te1.jpg", alt: "", class: "img-responsive")%>
-					<div class="test-grid">
-					<div class="test-gr">
-						<h4>Hailey</h4>
-						<span>Principal </span>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				
-			<div class="clearfix"> </div>
-			</div>
-			<div  class=" test-grid-2" >
-				<div class="col-md-6 test-wrapper">
-					<%= image_tag("te2.jpg", alt: "", class: "img-responsive")%>
-					<div class="test-grid">
-					<div class="test-gr">
-						<h4>Quincy</h4>
-						<span>Manager</span>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>	
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="col-md-6 test-wrapper">
-					<%= image_tag("te3.jpg", alt: "", class: "img-responsive")%>
-					<div class="test-grid">
-					<div class="test-gr">
-						<h4>Barb</h4>
-						<span>professor</span>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				
-			<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-
-<!---->
-<div class="content-bottom">
-	<h1>Gallery</h1>
-		<div class="content-in">
-            <div class="port effect-1">
-                <div class="image-box">
-                   <%= image_tag("fi.jpg", alt: "", class: "img-responsive")%>
-               </div>
-                <div class="text-desc">
-                    <h6>Education</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .</p>
+<html class="no-js">
+    <head>
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <title>Timer Agency Template</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+        <!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Template Javascript Files
+        ================================================== -->
+        <!-- modernizr js -->
+        <%= javascript_include_tag("vendor/modernizr-2.6.2.min.js") %>
+        <!-- jquery -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <!-- owl carouserl js -->
+        <%= javascript_include_tag("owl.carousel.min.js") %>
+        <!-- bootstrap js -->
+        <%= javascript_include_tag("bootstrap.min.js") %>
+        <!-- wow js -->
+        <%= javascript_include_tag("wow.min.js") %>
+        <!-- slider js -->
+        <%= javascript_include_tag("slider.js") %>
+        <%= javascript_include_tag("jquery.fancybox.js") %>
+        <!-- template main js -->
+        <%= javascript_include_tag("main.js") %>
+    </head>
+    <body>
+        <!--
+        ==================================================
+        Header Section Start
+        ================================================== -->
+        <header id="top-bar" class="navbar-fixed-top animated-header">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <!-- /responsive nav button -->
+                    
+                    <!-- logo -->
+                    <div class="navbar-brand">
+                        <a href="index.html" >
+                            <%= image_tag("logo.png", alt: "")%>
+                        </a>
+                    </div>
+                    <!-- /logo -->
                 </div>
-           </div>
-         </div>
-		<div class="content-in">
-            <div class="port effect-1">
-                <div class="image-box">
-                    <%= image_tag("fi1.jpg", alt: "", class: "img-responsive")%>
-                </div>
-				<div class="text-desc">
-                    <h6>Education</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .</p>	
-                </div>
+                <!-- main menu -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                    <div class="main-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="index.html" >Home</a>
+                            </li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="service.html">Service</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <span class="caret"></span></a>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li><a href="404.html">404 Page</a></li>
+                                        <li><a href="gallery.html">Gallery</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="caret"></span></a>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li><a href="blog-fullwidth.html">Blog Full</a></li>
+                                        <li><a href="blog-left-sidebar.html">Blog Left sidebar</a></li>
+                                        <li><a href="blog-right-sidebar.html">Blog Right sidebar</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- /main nav -->
             </div>
-        </div>
-		<div class="content-in">
-            <div class="port effect-1">
-                <div class="image-box">
-                    <%= image_tag("fi3.jpg", alt: "", class: "img-responsive")%>
+        </header>
+        
+        <!--
+        ==================================================
+        Slider Section Start
+        ================================================== -->
+        <section id="hero-area" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="block wow fadeInUp" data-wow-delay=".3s">
+                            
+                            <!-- Slider -->
+                            <section class="cd-intro">
+                                <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s" >
+                                <span>HI, MY NAME IS JONATHON & I AM A</span><br>
+                                <span class="cd-words-wrapper">
+                                    <b class="is-visible">DESIGNER</b>
+                                    <b>DEVELOPER</b>
+                                    <b>FATHER</b>
+                                </span>
+                                </h1>
+                                </section> <!-- cd-intro -->
+                                <!-- /.slider -->
+                                <h2 class="wow fadeInUp animated" data-wow-delay=".6s" >
+                                    With 10 years experience, I've occupied many roles including digital design director,<br> web designer and developer. This site showcases some of my work.
+                                </h2>
+                                <a class="btn-lines dark light wow fadeInUp animated smooth-scroll btn btn-default btn-green" data-wow-delay=".9s" href="#works" data-section="#works" >View Works</a>
+                                
+                            </div>
+                        </div>
+                    </div>
                 </div>
-				<div class="text-desc">
-					<h6>Education</h6>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .</p>   	
-				</div>
-			</div>
-        </div>
-		<div class="content-in">
-            <div class="port effect-1">
-                <div class="image-box">
-                    <%= image_tag("fi2.jpg", alt: "", class: "img-responsive")%>
+            </section><!--/#main-slider-->
+            <!--
+            ==================================================
+            Slider Section Start
+            ================================================== -->
+            <section id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+                                <h2>
+                                ABOUT ME
+                                </h2>
+                                <p>
+                                    Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero.
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
+                                <%= image_tag("about/about.jpg", alt: "")%>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="text-desc">
-                    <h6>Education</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .</p>	
+            </section> <!-- /#about -->
+            <!--
+            ==================================================
+            Portfolio Section Start
+            ================================================== -->
+            <section id="works" class="works">
+                <div class="container">
+                    <div class="section-heading">
+                        <h1 class="title wow fadeInDown" data-wow-delay=".3s">Latest Works</h1>
+                        <p class="wow fadeInDown" data-wow-delay=".5s">
+                            Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere <br> tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-12">
+                            <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
+                                <div class="img-wrapper">
+                                    <%= image_tag("portfolio/item-1.jpg", alt: "", class: "img-responsive")%>
+                                    <div class="overlay">
+                                        <div class="buttons">
+                                            <a rel="gallery" class="fancybox" href="images/portfolio/item-1.jpg">Demo</a>
+                                            <a target="_blank" href="single-portfolio.html">Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <figcaption>
+                                <h4>
+                                <a href="#">
+                                    Dew Drop
+                                </a>
+                                </h4>
+                                <p>
+                                    Redesigne UI Concept
+                                </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                            <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <div class="img-wrapper">
+                                    <%= image_tag("portfolio/item-2.jpg", alt: "this is a title", class: "img-responsive")%>
+                                    <div class="overlay">
+                                        <div class="buttons">
+                                            <a rel="gallery" class="fancybox" href="images/portfolio/item-2.jpg">Demo</a>
+                                            <a target="_blank" href="single-portfolio.html">Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <figcaption>
+                                <h4>
+                                <a href="#">
+                                    Bottle Mockup
+                                </a>
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor sit.
+                                </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                            <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <div class="img-wrapper">
+                                    <%= image_tag("portfolio/item-3.jpg", alt: "this is a title", class: "img-responsive")%>
+                                    <div class="overlay">
+                                        <div class="buttons">
+                                            <a rel="gallery" class="fancybox" href="images/portfolio/item-3.jpg">Demo</a>
+                                            <a target="_blank" href="single-portfolio.html">Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <figcaption>
+                                <h4>
+                                <a href="#">
+                                    Table Design
+                                </a>
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet.
+                                </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                            <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="600ms">
+                                <div class="img-wrapper">
+                                    <%= image_tag("portfolio/item-4.jpg", alt: "this is a title", class: "img-responsive")%>
+                                    <div class="overlay">
+                                        <div class="buttons">
+                                            <a rel="gallery" class="fancybox" href="images/portfolio/item-4.jpg">Demo</a>
+                                            <a target="_blank" href="single-portfolio.html">Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <figcaption>
+                                <h4>
+                                <a href="#">
+                                    Make Up elements
+                                </a>
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor.
+                                </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                            <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms">
+                                <div class="img-wrapper">
+                                    <%= image_tag("portfolio/item-5.jpg", alt: "this is a title", class: "img-responsive")%>
+                                    <div class="overlay">
+                                        <div class="buttons">
+                                            <a rel="gallery" class="fancybox" href="images/portfolio/item-5.jpg">Demo</a>
+                                            <a target="_blank" href="single-portfolio.html">Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <figcaption>
+                                <h4>
+                                <a href="#">
+                                    Shoping Bag Concept
+                                </a>
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor.
+                                </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                            <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="1200ms">
+                                <div class="img-wrapper">
+                                    <%= image_tag("portfolio/item-6.jpg", alt: "", class: "img-responsive")%>
+                                    <div class="overlay">
+                                        <div class="buttons">
+                                            <a rel="gallery" class="fancybox" href="images/portfolio/item-6.jpg">Demo</a>
+                                            <a target="_blank" href="single-portfolio.html">Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <figcaption>
+                                <h4>
+                                <a href="#">
+                                    Caramel Bottle
+                                </a>
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor.
+                                </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-		<div class="content-in">
-            <div class="port effect-1">
-                <div class="image-box">
-                    <%= image_tag("fi4.jpg", alt: "", class: "img-responsive")%>
+            </section> <!-- #works -->
+            <!--
+            ==================================================
+            Portfolio Section Start
+            ================================================== -->
+            <section id="feature">
+                <div class="container">
+                    <div class="section-heading">
+                        <h1 class="title wow fadeInDown" data-wow-delay=".3s">Offer From Me</h1>
+                        <p class="wow fadeInDown" data-wow-delay=".5s">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,<br> quasi dolores numquam dolor vero ex, tempora commodi repellendus quod laborum.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-lg-4 col-xs-12">
+                            <div class="media wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <div class="media-left">
+                                    <div class="icon">
+                                        <i class="ion-ios-flask-outline"></i>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Media heading</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-xs-12">
+                            <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="600ms">
+                                <div class="media-left">
+                                    <div class="icon">
+                                        <i class="ion-ios-lightbulb-outline"></i>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Well documented.</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-xs-12">
+                            <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="900ms">
+                                <div class="media-left">
+                                    <div class="icon">
+                                        <i class="ion-ios-lightbulb-outline"></i>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Well documented.</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-xs-12">
+                            <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1200ms">
+                                <div class="media-left">
+                                    <div class="icon">
+                                        <i class="ion-ios-americanfootball-outline"></i>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Free updates</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-xs-12">
+                            <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1500ms">
+                                <div class="media-left">
+                                    <div class="icon">
+                                        <i class="ion-ios-keypad-outline"></i>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Solid Support</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-xs-12">
+                            <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1800ms">
+                                <div class="media-left">
+                                    <div class="icon">
+                                        <i class="ion-ios-barcode-outline"></i>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Simple Installation</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="text-desc">
-                    <h6>Education</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .</p>	
+            </section> <!-- /#feature -->
+                            
+            <!--
+            ==================================================
+            Call To Action Section Start
+            ================================================== -->
+            <section id="call-to-action">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="block">
+                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">SO WHAT YOU THINK ?</h1>
+                                <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.</p>
+                                <a href="contact.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">Contact With Me</a>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="clearfix"> </div>
-</div>
-<!---->
-<!--footer-->
-<div class="footer">
-	<div class="container">
-		<div class="col-md-6 footer-left">
-			<h3>Information</h3>
-			<p class="para">At vero eos et accusamus et iusto odio dignissimos
-			ducimus qui blanditiis praesentium voluptatum deleniti at
-			que corrupti quos dolores et quas molestias excepturi sint
-			occaecati cupiditate non provident, similique sunt.</p>
-			<h3>Newsletter<label></label></h3>
-			<form action="#" method="post">
-				<input type="text" value="Name" name="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-				<input type="email" value="Email" name="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-				<input type="submit" value="Submit">
-			</form>
-		</div>
-		<div class="col-md-6 footer-right">
-			<h3>Contact Us</h3>
-			<ul class="con-icons">
-				<li><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>+123 456 7890</li>
-				<li><a href="mailto:info@example.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>info@example.com</a></li>
-			</ul>
-			<p class="copy-right">© 2016 Academic. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
-		</div>
-		<div class="clearfix"></div>
-	</div>
-</div>
-<!--//footer-->
-</body>
-</html>
+            </section>
+            <!--
+            ==================================================
+            Footer Section Start
+            ================================================== -->
+            <footer id="footer">
+                <div class="container">
+                    <div class="col-md-8">
+                        <p class="copyright">Copyright: <span>2015</span> . Design and Developed by <a href="https://www.themefisher.com/free-bootstrap-templates/">Themefisher</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- Social Media -->
+                        <ul class="social">
+                            <li>
+                                <a href="http://wwww.fb.com/themefisher" class="Facebook">
+                                    <i class="ion-social-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://wwww.twitter.com/themefisher" class="Twitter">
+                                    <i class="ion-social-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="Linkedin">
+                                    <i class="ion-social-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://wwww.fb.com/themefisher" class="Google Plus">
+                                    <i class="ion-social-googleplus"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer> <!-- /#footer -->
+                
+        </body>
+    </html>
