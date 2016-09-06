@@ -5,3 +5,9 @@
 <p>Controller needs to search through the existing RESOURCE database -- information will be specific to the hospitals/list  -- so resource specific anyway since it has to be put into the correct controller method</p>
 <p>The next thing it does is send back any records that match the ones in the list sent by the javascript in the first place</p>
 <p>The view goes through that list and then only gives like links for the ones that match to ones in the list</p>
+
+<%= form_tag("/search", method: "get") do %>
+  <%= label_tag(:q, "Search for:") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag , :onclick => "return searchFor(--pass args here--);" %>
+<% end %>
